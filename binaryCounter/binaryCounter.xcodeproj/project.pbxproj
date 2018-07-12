@@ -13,6 +13,7 @@
 		0EC553F120F6B85F00D70EAA /* binaryCounter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EC553EF20F6B85F00D70EAA /* binaryCounter.xcdatamodeld */; };
 		0EC553F320F6B86200D70EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC553F220F6B86200D70EAA /* Assets.xcassets */; };
 		0EC553F620F6B86200D70EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC553F420F6B86200D70EAA /* LaunchScreen.storyboard */; };
+		0EC553FE20F6C3DD00D70EAA /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC553FD20F6C3DD00D70EAA /* NumberCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0EC553F220F6B86200D70EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EC553F520F6B86200D70EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EC553F720F6B86200D70EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC553FD20F6C3DD00D70EAA /* NumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				0EC553E820F6B85F00D70EAA /* AppDelegate.swift */,
 				0EC553EA20F6B85F00D70EAA /* ViewController.swift */,
+				0EC553FD20F6C3DD00D70EAA /* NumberCell.swift */,
 				0EC553EC20F6B85F00D70EAA /* Main.storyboard */,
 				0EC553F220F6B86200D70EAA /* Assets.xcassets */,
 				0EC553F420F6B86200D70EAA /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC553FE20F6C3DD00D70EAA /* NumberCell.swift in Sources */,
 				0EC553EB20F6B85F00D70EAA /* ViewController.swift in Sources */,
 				0EC553F120F6B85F00D70EAA /* binaryCounter.xcdatamodeld in Sources */,
 				0EC553E920F6B85F00D70EAA /* AppDelegate.swift in Sources */,
